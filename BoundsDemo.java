@@ -24,6 +24,12 @@ class Stats<T extends  Number>{
         }
      return sum/nums.length;          
     }
+    
+    boolean sameAvg(Stats<?> ob){
+        if (average()==ob.average())
+            return true;
+        return false;
+    }
 }
 public class BoundsDemo {
     public static void main(String[] args) {
@@ -36,5 +42,7 @@ public class BoundsDemo {
         Stats<Double> dob = new Stats<Double>(dnums);
         double w = dob.average();
         System.out.println("Average value dob ="+w);
-    }
+        
+
+    } 
 }
