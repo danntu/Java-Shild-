@@ -7,14 +7,27 @@ package glava17;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
+import java.util.Comparator;
 
 /**
  *
  * @author DMyrzaka
  */
-public class TreeMapDemo {
-    public static void main(String args[]){
-        TreeMap<String,Double> tm = new TreeMap<String,Double>();
+class TComp implements Comparator<String>{
+    public int compare(String a, String b){
+        int i,j,k;
+        String aStr=a,bStr=b;
+        i=aStr.lastIndexOf(' ');
+        j=bStr.lastIndexOf(' ');
+        k=aStr.substring(i).compareTo(bStr.substring(j));
+        if (k==0) 
+            return aStr.compareTo(bStr);
+        else return k;
+    }
+}
+public class TreeMapDemo2 {
+     public static void main(String args[]){
+        TreeMap<String,Double> tm = new TreeMap<String,Double>(new TComp());
         tm.put("Джон Доу", new Double(3434.34));
         tm.put("Том Смит", new Double(123.22));
         tm.put("Джейин Бейкер", new Double(1378.00));
