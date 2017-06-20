@@ -1,0 +1,29 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package glava18;
+
+/**
+ *
+ * @author DMyrzaka
+ */
+import java.util.*;
+class MyTimerTask extends TimerTask{
+    public void run(){
+        System.out.println("Timer is working");
+    }
+}
+public class TTest {
+    public static void main(String args[]){
+        MyTimerTask myTask = new MyTimerTask();
+        Timer myTimer = new Timer();
+        myTimer.schedule(myTask, 1000,5);
+        try{
+            Thread.sleep(5000);
+        }catch(InterruptedException exc){
+            myTimer.cancel();
+        }
+                
+    }
+}
