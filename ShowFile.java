@@ -1,53 +1,30 @@
-
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.InvalidPathException;
+import java.nio.file.Paths;
 
 /**
- *
- * @author DMyrzaka
+ * Created by DMyrzaka on 03.07.2017.
  */
 public class ShowFile {
     public static void main(String[] args) {
         int i;
-        FileInputStream fin;
-           
-        if (args.length !=1) {
-            System.out.println("Using: ShowFile filename");
+        if (args.length !=1){
+            System.out.println("Usage: ShowFile filename");
             return;
         }
-        
-    
-        //
-        try{
-            fin = new FileInputStream(args[0]);
-        } catch(FileNotFoundException e){
-            System.out.println("I can't open file"); 
-            return;
-        }
-        
-        try{
-            do {
+
+        try(InputStream fin = Files.newInputStream(Paths.get(args[0]))){
+            do{
                 i = fin.read();
-                if (i !=-1) System.out.print((char)i);
-            } while (i != -1);
-        } catch(IOException e){
-            System.out.println("Error reading file");
+                if(i !=-1) System.out.print((char)i);
+            } while (i!=-1);
+        }  catch (InvalidPathException e){
+            System.out.println("Path Error "+e);
+        } catch (IOException e){
+            System.out.println("I/O Error "+e);
         }
-        
-        finally{
-        try{
-            fin.close();
-        } catch(IOException e){
-            System.out.println("Error close file");
-        }
-        }
-        
+
     }
 }
