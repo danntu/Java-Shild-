@@ -1,35 +1,32 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package glava19;
+import java.io.IOException;
+import java.io.InvalidClassException;
+import java.nio.file.*;
+import java.nio.file.attribute.BasicFileAttributes;
 
 /**
- *
- * @author DMyrzaka
+ * Created by DMyrzaka on 03.07.2017.
  */
-import java.io.File;
-
 public class DirList {
-    public static void main(String args[]){
-        String dirname="/java";
-        File f1 = new File(dirname);
-        if (f1.isDirectory()){
-            System.out.println("Catalog "+dirname);
-            String s[]=f1.list();
-            for (int i=0;i<s.length;i++){
-                File f = new File(dirname+"/"+s[i]);
-                if (f.isDirectory()){
-                    System.out.println(s[i]+" is catalog");
-                }
-                else {
-                    System.out.println(s[i]+" is file");
-                }
+    public static void main(String[] args) {
+        String dirname="D:\\glava20";
+
+        try(DirectoryStream<Path> directoryStream = Files.newDirectoryStream(Paths.get(dirname))){
+            System.out.println("Directory of "+dirname);
+            for(Path entry : directoryStream){
+                BasicFileAttributes attributes=Files.readAttributes(entry,BasicFileAttributes.class);
+                if (attributes.isDirectory())
+                    System.out.print("<DIR> ");
+                else
+                    System.out.print("File ");
+                System.out.println(entry.getName(1));
             }
+        } catch (InvalidClassException e){
+            System.out.println("Path Error "+e);
+        } catch(NotDirectoryException e){
+            System.out.println(dirname+ " is not a directory");
         }
-            else{
-                 
-            System.out.println(dirname+" isn't directory");
+        catch (IOException e){
+            System.out.println("I/O Error "+e);
         }
     }
 }
