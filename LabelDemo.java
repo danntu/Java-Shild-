@@ -11,6 +11,6 @@ public class LabelDemo extends Applet {
         Label three = new Label("Three");
 
         add(one); add(two); add(three);
-        
+
     }
 }
