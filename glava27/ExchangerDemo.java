@@ -5,6 +5,3 @@ public class ExchangerDemo {
 
     }
 }
-class MakeString implements Runnable{
-
-}
