@@ -35,6 +35,6 @@ class MyThread2 implements Runnable{
 class BarAction implements Runnable{
     @Override
     public void run() {
-        System.out.println("Барьер достигнут!");
+        System.out.println("Барьер достигнут! ");
     }
 }
