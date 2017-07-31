@@ -51,7 +51,6 @@ class UseString implements Runnable{
             } catch (InterruptedException e){
                 System.out.println(e);
             }
-
         }
     }
 }
