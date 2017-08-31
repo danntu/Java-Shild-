@@ -8,7 +8,6 @@ public class RegExpr {
         Pattern pat;
         Matcher mat;
         boolean found;
-
         pat=Pattern.compile("Java");
         mat=pat.matcher("Java");
         found=mat.matches();
