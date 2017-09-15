@@ -22,6 +22,7 @@ public class JTextFieldDemo extends JApplet{
     private void makeGUI(){
         JTextField textField = new JTextField("Please enter text",15);
         textField.setForeground(Color.blue);
+        textField.setToolTipText("Example");
         textField.setBorder(BorderFactory.createLineBorder(Color.RED,3));
         textField.setBackground(Color.ORANGE);
         textField.setFont(new Font("Arial",20,20));
