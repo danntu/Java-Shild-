@@ -8,9 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Testing</title>
   </head>
   <body>
-  $END$
+  <a href="http://localhost:8080/HelloServlet">Servlet</a>
+  <form name="from1" method="post" action="/HelloServlet">
+  Employee <input type="text" name="e">
+    Phone <input type="text" name="p">
+    <input type="submit" value="Submit">
+  </form>
   </body>
 </html>
