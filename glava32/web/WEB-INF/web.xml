@@ -7,8 +7,25 @@
         <servlet-name>HelloServlet</servlet-name>
         <servlet-class>HelloServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ColorGetServlet</servlet-name>
+        <servlet-class>ColorGetServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ColorPostServlet</servlet-name>
+        <servlet-class>ColorPostServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/HelloServlet</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ColorGetServlet</servlet-name>
+        <url-pattern>/ColorGetServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ColorPostServlet</servlet-name>
+        <url-pattern>/ColorPostServlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>
