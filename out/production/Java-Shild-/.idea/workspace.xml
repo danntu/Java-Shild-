@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83503b18-bfbf-496a-b554-531c28e17606" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/exam/Exam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/exam/Runner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/template/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/template/Runner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/varargs/DemoVarargs.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +18,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
       <file leaf-file-name="Exam.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m_1/by/bsu/exam/Exam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
+            <state relative-caret-position="377">
               <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
               <folding>
                 <element signature="e#232#233#0" expanded="true" />
@@ -39,15 +36,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m_1/by/bsu/exam/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
               <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-              <folding>
-                <element signature="e#128#136#0" expanded="true" />
-                <element signature="e#189#197#0" expanded="true" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoVarargs.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/m_1/by/bsu/varargs/DemoVarargs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/glava31/JRadioButtonDemo.java" />
         <option value="$PROJECT_DIR$/glava31/JTabbedPaneDemo.java" />
         <option value="$PROJECT_DIR$/glava31/JScrollPaneDemo.java" />
         <option value="$PROJECT_DIR$/glava31/JListDemo.java" />
@@ -134,6 +137,7 @@
         <option value="$PROJECT_DIR$/m_1/by/bsu/template/Runner.java" />
         <option value="$PROJECT_DIR$/m_1/by/bsu/exam/Exam.java" />
         <option value="$PROJECT_DIR$/m_1/by/bsu/exam/Runner.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/varargs/DemoVarargs.java" />
       </list>
     </option>
   </component>
@@ -190,6 +194,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,34 +227,14 @@
               <item name="m_1" type="462c0819:PsiDirectoryNode" />
               <item name="by" type="462c0819:PsiDirectoryNode" />
               <item name="bsu" type="462c0819:PsiDirectoryNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-Shild-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-Shild-" type="462c0819:PsiDirectoryNode" />
-              <item name="m_1" type="462c0819:PsiDirectoryNode" />
-              <item name="by" type="462c0819:PsiDirectoryNode" />
-              <item name="bsu" type="462c0819:PsiDirectoryNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-              <item name="Exam" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="Java-Shild-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-Shild-" type="462c0819:PsiDirectoryNode" />
-              <item name="m_1" type="462c0819:PsiDirectoryNode" />
-              <item name="by" type="462c0819:PsiDirectoryNode" />
-              <item name="bsu" type="462c0819:PsiDirectoryNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-              <item name="Runner" type="1a9f42e2:ClassTreeNode" />
+              <item name="varargs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner (2)">
+  <component name="RunManager" selected="Application.DemoVarargs">
     <configuration name="DemoLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -307,6 +293,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.logic.DemoLogic" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java-Shild-" />
+      <envs />
+    </configuration>
+    <configuration name="DemoVarargs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="m_1.by.bsu.varargs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.varargs.DemoVarargs" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -346,25 +351,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.overload.NumberInfo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java-Shild-" />
-      <envs />
-    </configuration>
-    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="m_1.by.bsu.transfer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.transfer.Runner" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -548,19 +534,19 @@
       <item index="0" class="java.lang.String" itemvalue="Applet.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Applet.JRadioButtonDemo" />
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0.27" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Runner (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DemoLogic" />
-      <item index="5" class="java.lang.String" itemvalue="Application.NumberInfo" />
-      <item index="6" class="java.lang.String" itemvalue="Application.Runner" />
-      <item index="7" class="java.lang.String" itemvalue="Application.Runner (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DemoLogic" />
+      <item index="4" class="java.lang.String" itemvalue="Application.NumberInfo" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Runner" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Runner (2)" />
+      <item index="7" class="java.lang.String" itemvalue="Application.DemoVarargs" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Runner (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Runner" />
-        <item index="2" class="java.lang.String" itemvalue="Application.NumberInfo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DemoLogic" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Runner (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DemoVarargs" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Runner (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Runner" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NumberInfo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DemoLogic" />
       </list>
     </recent_temporary>
   </component>
@@ -624,14 +610,8 @@
       <workItem from="1508925284729" duration="5133000" />
       <workItem from="1508998042540" duration="6902000" />
       <workItem from="1509021128132" duration="69000" />
-      <workItem from="1509082474144" duration="521000" />
-    </task>
-    <task id="LOCAL-00017" summary="Абстрактный класс RecursiveTask&lt;Double&gt;">
-      <created>1502183491573</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1502183491573</updated>
+      <workItem from="1509082474144" duration="762000" />
+      <workItem from="1509100006327" duration="263000" />
     </task>
     <task id="LOCAL-00018" summary="class Exchager">
       <created>1504164469660</created>
@@ -969,12 +949,19 @@
       <option name="project" value="LOCAL" />
       <updated>1509008068833</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Java Методы программирования стр 72">
+      <created>1509083058984</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1509083058985</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="103456000" />
+    <option name="totallyTimeSpent" value="103960000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1064,7 +1051,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class JLabel and class ImageIcon" />
     <MESSAGE value="class JTextField used different methods" />
     <MESSAGE value="class JTextField added tooltip" />
     <MESSAGE value="class JButton" />
@@ -1089,7 +1075,8 @@
     <MESSAGE value="Java Методы программирования стр 62" />
     <MESSAGE value="Java Методы программирования стр 67" />
     <MESSAGE value="Java Методы программирования стр 68" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Методы программирования стр 68" />
+    <MESSAGE value="Java Методы программирования стр 72" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Методы программирования стр 72" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1124,11 +1111,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/glava31/france.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/glava31/JButtonDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
@@ -1318,6 +1300,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1451,7 +1434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1464,7 +1446,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/m_1/by/bsu/exam/Exam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
+        <state relative-caret-position="377">
           <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding>
             <element signature="e#232#233#0" expanded="true" />
@@ -1481,10 +1463,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding>
-            <element signature="e#128#136#0" expanded="true" />
-            <element signature="e#189#197#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/varargs/DemoVarargs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
