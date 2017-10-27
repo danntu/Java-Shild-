@@ -7,7 +7,7 @@ public class DemoVarargs {
         } else{
             for (int element:
                  args) {
-                System.out.printf("arg:%d",element);
+                System.out.printf("arg:%d ",element);
             }
         }
         return  args.length;
