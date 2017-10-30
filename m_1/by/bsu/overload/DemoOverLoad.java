@@ -17,6 +17,6 @@ public class DemoOverLoad {
         printArgCount(i,i,i);
         printArgCount(i,4,71);
         printArgCount(i);
-        printArgCount(5,7);
+      //  printArgCount(5,7);
     }
 }
