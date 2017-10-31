@@ -1,4 +1,4 @@
-package m_1.by.bsu.Inheritance;
+package m_1.by.bsu.inheritance;
 
 public class CreditCardAction extends CardAction{
     public boolean checkCreditLimit(){

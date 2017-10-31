@@ -1,4 +1,4 @@
-package m_1.by.bsu.Inheritance;
+package m_1.by.bsu.inheritance;
 
 public class CardRunner {
     public static void main(String[] args) {
