@@ -1,6 +1,6 @@
 package m_1.by.bsu.inheritance;
 
-public class CreditCardAction extends CardAction{
+public class CreditCardAction extends AbstractCardAction{
     public boolean checkCreditLimit(){
         return  true;
     }
