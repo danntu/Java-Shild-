@@ -5,5 +5,6 @@ public class RunnerShip {
         Ship.LifeBoat.down();
         Ship.LifeBoat lifeBoat = new Ship.LifeBoat();
         lifeBoat.swim();
+
     }
 }
