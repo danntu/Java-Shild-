@@ -13,7 +13,7 @@ public class AccountBaseActionImpl implements AccountBaseAction {
 
     @Override
     public void blocking() {
-
+        throw new UnsupportedOperationException();
     }
 
     @Override
