@@ -7,7 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83503b18-bfbf-496a-b554-531c28e17606" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/anonym/Runner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/shapes/ActionMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/shapes/action/PentagonAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/shapes/action/RectangleAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/shapes/action/TriangleAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/shapes/entity/Rectangle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/shapes/entity/Triangle.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,27 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="WrapperString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m_1/by/bsu/anonym/WrapperString.java">
+      <file leaf-file-name="ActionMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/m_1/by/bsu/shapes/ActionMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="377">
+              <caret line="13" column="91" lean-forward="false" selection-start-line="13" selection-start-column="91" selection-end-line="13" selection-end-column="91" />
               <folding>
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/m_1/by/bsu/anonym/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="57" column="53" lean-forward="false" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -49,10 +41,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Jsp File" />
         <option value="HTML File" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -76,23 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/m_1/by/bsu/enums/MelomanRunner.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/enums/Shape.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/enums/ShapeRunner.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/enums/TaxiStation.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/enums/TaxiRunner.java" />
-        <option value="$PROJECT_DIR$/m_1/Matrix.java" />
-        <option value="$PROJECT_DIR$/m_1/Test.java" />
-        <option value="$PROJECT_DIR$/m_1/Solution.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/task/exceptions/MatrixException.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/task/action/Multiplicator.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/task/Runner.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/task/entity/Matrix.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/task/creator/MatrixCreator.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/Inheritance/CardAction.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/Inheritance/CreditCardAction.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/Inheritance/CardRunner.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/inheritance/CardAction.java" />
         <option value="$PROJECT_DIR$/m_1/by/bsu/dumb/Dumb.java" />
         <option value="$PROJECT_DIR$/m_1/by/bsu/dumb/Dumber.java" />
         <option value="$PROJECT_DIR$/m_1/by/bsu/point/Point1D.java" />
@@ -127,6 +102,23 @@
         <option value="$PROJECT_DIR$/m_1/by/bsu/nested/RunnerShip.java" />
         <option value="$PROJECT_DIR$/m_1/by/bsu/anonym/WrapperString.java" />
         <option value="$PROJECT_DIR$/m_1/by/bsu/anonym/Runner.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/enums/Shape2.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/enums/EnumRunner.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/proj/accountlogic/AccountAction.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/proj/accountlogic/AccountBaseAction.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/proj/accountlogic/AccountOperationManager.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/proj/accountlogic/AccountBaseActionImpl.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/shapes/entity/AbstractShape.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/shapes/action/ILineGroupAction.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/shapes/action/IShapeAction.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/shapes/entity/Rectangle.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/shapes/action/RectangeAction.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/shapes/entity/Triangle.java" />
+        <option value="$PROJECT_DIR$/m_1/Base.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/shapes/action/TriangleAction.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/shapes/action/PentagonAction.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/shapes/action/RectangleAction.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/shapes/ActionMain.java" />
       </list>
     </option>
   </component>
@@ -144,8 +136,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="1121" />
     <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -181,7 +174,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,13 +207,64 @@
               <item name="m_1" type="462c0819:PsiDirectoryNode" />
               <item name="by" type="462c0819:PsiDirectoryNode" />
               <item name="bsu" type="462c0819:PsiDirectoryNode" />
-              <item name="anonym" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-Shild-" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java-Shild-" type="462c0819:PsiDirectoryNode" />
               <item name="m_1" type="462c0819:PsiDirectoryNode" />
-              <item name="Solution" type="1a9f42e2:ClassTreeNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="bsu" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Shild-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Shild-" type="462c0819:PsiDirectoryNode" />
+              <item name="m_1" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="bsu" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="PentagonAction" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="Java-Shild-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Shild-" type="462c0819:PsiDirectoryNode" />
+              <item name="m_1" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="bsu" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="TriangleAction" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="Java-Shild-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Shild-" type="462c0819:PsiDirectoryNode" />
+              <item name="m_1" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="bsu" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Shild-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Shild-" type="462c0819:PsiDirectoryNode" />
+              <item name="m_1" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="bsu" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractShape" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="Java-Shild-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Shild-" type="462c0819:PsiDirectoryNode" />
+              <item name="m_1" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="bsu" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
+              <item name="ActionMain" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="Java-Shild-" type="b2602c69:ProjectViewProjectNode" />
@@ -281,8 +326,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -333,15 +377,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner (1)">
-    <configuration name="CardRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ActionMain">
+    <configuration name="ActionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="m_1.by.bsu.inheritance.*" />
+          <option name="PATTERN" value="m_1.by.bsu.shapes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.inheritance.CardRunner" />
+      <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.shapes.ActionMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java-Shild-" />
+      <envs />
+    </configuration>
+    <configuration name="EnumRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="m_1.by.bsu.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.enums.EnumRunner" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -372,25 +435,6 @@
       <module name="Java-Shild-">
         <option name="moduleName" value="Java-Shild-" />
       </module>
-    </configuration>
-    <configuration name="MobilMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="m_1.by.bsu.inner.study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.inner.MobilMain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java-Shild-" />
-      <envs />
     </configuration>
     <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -583,19 +627,19 @@
       <item index="0" class="java.lang.String" itemvalue="Applet.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Applet.JRadioButtonDemo" />
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0.27" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CardRunner" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MobilMain" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Runner" />
-      <item index="6" class="java.lang.String" itemvalue="Application.RunnerShip" />
-      <item index="7" class="java.lang.String" itemvalue="Application.Runner (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Runner" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RunnerShip" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Runner (1)" />
+      <item index="6" class="java.lang.String" itemvalue="Application.EnumRunner" />
+      <item index="7" class="java.lang.String" itemvalue="Application.ActionMain" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Runner (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RunnerShip" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Runner" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MobilMain" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CardRunner" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ActionMain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.EnumRunner" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Runner (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RunnerShip" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -671,56 +715,10 @@
       <workItem from="1509629175363" duration="22000" />
       <workItem from="1509686095806" duration="5114000" />
       <workItem from="1509772981372" duration="38000" />
-      <workItem from="1510029248166" duration="2500000" />
-    </task>
-    <task id="LOCAL-00036" summary="class PaintDemo">
-      <created>1505452940986</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1505452940987</updated>
-    </task>
-    <task id="LOCAL-00037" summary="class JLabel and class ImageIcon">
-      <created>1505453638976</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1505453638976</updated>
-    </task>
-    <task id="LOCAL-00038" summary="class JTextField used different methods">
-      <created>1505454231728</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1505454231728</updated>
-    </task>
-    <task id="LOCAL-00039" summary="class JTextField added tooltip">
-      <created>1505454321665</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1505454321665</updated>
-    </task>
-    <task id="LOCAL-00040" summary="class JButton">
-      <created>1505462915494</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1505462915494</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Swing Examples">
-      <created>1505905591702</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1505905591702</updated>
-    </task>
-    <task id="LOCAL-00042" summary="class JTabbedPane">
-      <created>1506577340479</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1506577340480</updated>
+      <workItem from="1510029248166" duration="5883000" />
+      <workItem from="1510149706230" duration="693000" />
+      <workItem from="1510203722113" duration="18000" />
+      <workItem from="1510220850436" duration="1594000" />
     </task>
     <task id="LOCAL-00043" summary="class JScrollPane">
       <created>1506578521503</created>
@@ -1016,12 +1014,61 @@
       <option name="project" value="LOCAL" />
       <updated>1509703891241</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Java Методы программирования стр 143. Anonous class">
+      <created>1510033211017</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1510033211018</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Java Методы программирования стр 146. Anonous class">
+      <created>1510033828468</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1510033828469</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Java Методы программирования стр 152. Interface">
+      <created>1510034184155</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1510034184155</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Java Методы программирования стр 152. Interface">
+      <created>1510034275266</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1510034275266</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Java Методы программирования стр 152. Interface">
+      <created>1510034396438</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1510034396438</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Java Методы программирования стр 153. Interface implementation">
+      <created>1510034483814</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1510034483814</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Java Методы программирования стр 154. Interface наследование">
+      <created>1510034899195</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1510034899195</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="135520000" />
+    <option name="totallyTimeSpent" value="141208000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1033,7 +1080,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="1121" width="1920" height="1039" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1045,12 +1092,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3599034" sideWeight="0.53741866" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.4978308" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37738246" sideWeight="0.46258134" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3768116" sideWeight="0.46258134" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.47342733" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29826465" sideWeight="0.49369368" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31616053" sideWeight="0.49369368" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35954446" sideWeight="0.5063063" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1111,10 +1158,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java Методы программирования стр 56-57" />
-    <MESSAGE value="Java Методы программирования стр 58-59" />
-    <MESSAGE value="Java Методы программирования стр 62" />
-    <MESSAGE value="Java Методы программирования стр 67" />
     <MESSAGE value="Java Методы программирования стр 68" />
     <MESSAGE value="Java Методы программирования стр 72" />
     <MESSAGE value="Java Методы программирования стр 75" />
@@ -1136,7 +1179,11 @@
     <MESSAGE value="Java Методы программирования стр 141. Nested class" />
     <MESSAGE value="Java Методы программирования стр 141. Anonous class" />
     <MESSAGE value="Java Методы программирования стр 143. Anonous class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Методы программирования стр 143. Anonous class" />
+    <MESSAGE value="Java Методы программирования стр 146. Anonous class" />
+    <MESSAGE value="Java Методы программирования стр 152. Interface" />
+    <MESSAGE value="Java Методы программирования стр 153. Interface implementation" />
+    <MESSAGE value="Java Методы программирования стр 154. Interface наследование" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Методы программирования стр 154. Interface наследование" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1171,126 +1218,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/enums/MusicStyle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/overload/DemoOverLoad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_141/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="129" column="18" lean-forward="false" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/enums/TaxiRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/enums/TaxiStation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/enums/ShapeRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/enums/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/Test.java" />
-    <entry file="jar:///usr/java/jdk1.8.0_141/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="314" column="11" lean-forward="false" selection-start-line="314" selection-start-column="11" selection-end-line="314" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/OracleSloagan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/task/exceptions/MatrixException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/enums/MelomanRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/task/creator/MatrixCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="12" column="71" lean-forward="false" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/task/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="18" column="74" lean-forward="false" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/task/action/Multiplicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/task/entity/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m_1/by/bsu/dumb/Dumb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -1512,20 +1439,146 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m_1/by/bsu/anonym/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="57" column="53" lean-forward="false" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+        <state relative-caret-position="144">
+          <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/enums/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/enums/Shape2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/enums/EnumRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/proj/accountlogic/AccountAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/proj/accountlogic/AccountOperationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/proj/accountlogic/AccountBaseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/proj/accountlogic/AccountBaseActionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/shapes/action/ILineGroupAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/shapes/action/IShapeAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/shapes/entity/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/shapes/entity/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/Base.java" />
+    <entry file="file://$PROJECT_DIR$/m_1/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/shapes/action/RectangleAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/shapes/entity/AbstractShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/shapes/action/TriangleAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/shapes/action/PentagonAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/shapes/ActionMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="91" lean-forward="false" selection-start-line="13" selection-start-column="91" selection-end-line="13" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
