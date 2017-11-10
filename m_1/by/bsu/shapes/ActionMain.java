@@ -1,6 +1,7 @@
 package m_1.by.bsu.shapes;
 
 import m_1.by.bsu.shapes.action.IShapeAction;
+import m_1.by.bsu.shapes.action.IShapeAction2;
 import m_1.by.bsu.shapes.action.RectangleAction;
 import m_1.by.bsu.shapes.action.TriangleAction;
 import m_1.by.bsu.shapes.entity.Rectangle;
@@ -13,15 +14,15 @@ public class ActionMain {
         IShapeAction action;
         try{
             Rectangle rectShape = new Rectangle(2,3);
-            action = new RectangleAction();
-            System.out.println("Square rectangle: "+action.computeSquare(rectShape));
-            System.out.println("Perimeter rectangle: "+action.computePerimeter(rectShape));
+            IShapeAction2<Rectangle> action1 = new RectangleAction();
+            System.out.println("Square rectangle: "+action1.computeSquare(rectShape));
+            System.out.println("Perimeter rectangle: "+action1.computePerimeter(rectShape));
 
             Triangle trShape = new Triangle(3,4,PI/6);
-            action = new TriangleAction();
-            System.out.println("Square triangle: "+action.computeSquare(trShape));
-            System.out.println("Perimeter triangle: "+action.computePerimeter(trShape));
-            action.computePerimeter(rectShape);
+            IShapeAction2<Triangle> action2 = new TriangleAction();
+            System.out.println("Square triangle: "+action2.computeSquare(trShape));
+            System.out.println("Perimeter triangle: "+action2.computePerimeter(trShape));
+            //action2.computePerimeter(rectShape);
         } catch (IllegalArgumentException e){
             System.err.println(e.getMessage());
         }
