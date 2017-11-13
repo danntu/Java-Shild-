@@ -11,5 +11,11 @@ public class EqualStrings {
         System.out.println(s1+"=="+s3+" : "+(s1==s3));
         System.out.println(s1+" equals "+s2+" : "+s1.equals(s2));
         System.out.println(s1+" equals "+s3+" : "+s1.equals(s3));
+
+        s1="Java";
+        s2=new String("Java");
+        System.out.println(s1==s2);
+        s2=s2.intern();
+        System.out.println(s1==s2);
     }
 }
