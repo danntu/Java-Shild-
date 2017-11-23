@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83503b18-bfbf-496a-b554-531c28e17606" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/strings/RefString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/regex/DemoRegular.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_1/by/bsu/strings/RefStringBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-Shild-/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/Java-Shild-/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,35 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="ComparisonStrings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m_1/by/bsu/strings/ComparisonStrings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RefString.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/m_1/by/bsu/strings/RefString.java">
+      <file leaf-file-name="DemoRegular.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/m_1/by/bsu/regex/DemoRegular.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
               <folding>
-                <element signature="e#98#99#0" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m_1/by/bsu/strings/SortArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -84,10 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/m_1/by/bsu/inheritance/CreditCardAction.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/inheritance/AbstractCardAction.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/inheritance/CardRunner.java" />
-        <option value="$PROJECT_DIR$/m_1/by/bsu/scalability/AbbstractQuest.java" />
         <option value="$PROJECT_DIR$/m_1/by/bsu/scalability/AbstractQuest.java" />
         <option value="$PROJECT_DIR$/m_1/by/bsu/scalability/DragnDropQuest.java" />
         <option value="$PROJECT_DIR$/m_1/by/bsu/scalability/SingleChoiceQuest.java" />
@@ -135,6 +112,10 @@
         <option value="$PROJECT_DIR$/m_1/by/bsu/proj/annotation/logic/SecurityLogic.java" />
         <option value="$PROJECT_DIR$/m_1/by/bsu/strings/SortArray.java" />
         <option value="$PROJECT_DIR$/m_1/by/bsu/strings/RefString.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/strings/EqualStrings.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/strings/DemoStringBuffer.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/strings/RefStringBuilder.java" />
+        <option value="$PROJECT_DIR$/m_1/by/bsu/regex/DemoRegular.java" />
       </list>
     </option>
   </component>
@@ -152,10 +133,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-92" />
-    <option name="y" value="1157" />
-    <option name="width" value="1890" />
-    <option name="height" value="795" />
+    <option name="x" value="249" />
+    <option name="y" value="164" />
+    <option name="width" value="930" />
+    <option name="height" value="595" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -191,7 +172,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -224,14 +207,12 @@
               <item name="m_1" type="462c0819:PsiDirectoryNode" />
               <item name="by" type="462c0819:PsiDirectoryNode" />
               <item name="bsu" type="462c0819:PsiDirectoryNode" />
-              <item name="strings" type="462c0819:PsiDirectoryNode" />
+              <item name="regex" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,15 +262,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RefString">
-    <configuration name="ActionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.DemoRegular">
+    <configuration name="DemoRegular" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="m_1.by.bsu.shapes.*" />
+          <option name="PATTERN" value="m_1.by.bsu.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.shapes.ActionMain" />
+      <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.regex.DemoRegular" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -301,14 +282,14 @@
       <module name="Java-Shild-" />
       <envs />
     </configuration>
-    <configuration name="AnnoRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoStringBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="m_1.by.bsu.proj.run.*" />
+          <option name="PATTERN" value="m_1.by.bsu.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.proj.run.AnnoRunner" />
+      <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.strings.DemoStringBuffer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -320,14 +301,14 @@
       <module name="Java-Shild-" />
       <envs />
     </configuration>
-    <configuration name="EnumRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="EqualStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="m_1.by.bsu.enums.*" />
+          <option name="PATTERN" value="m_1.by.bsu.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.enums.EnumRunner" />
+      <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.strings.EqualStrings" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -378,14 +359,14 @@
       <module name="Java-Shild-" />
       <envs />
     </configuration>
-    <configuration name="SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RefStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="m_1.by.bsu.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.strings.SortArray" />
+      <option name="MAIN_CLASS_NAME" value="m_1.by.bsu.strings.RefStringBuilder" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -531,19 +512,19 @@
       <item index="0" class="java.lang.String" itemvalue="Applet.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Applet.JRadioButtonDemo" />
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0.27" />
-      <item index="3" class="java.lang.String" itemvalue="Application.EnumRunner" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ActionMain" />
-      <item index="5" class="java.lang.String" itemvalue="Application.AnnoRunner" />
-      <item index="6" class="java.lang.String" itemvalue="Application.SortArray" />
-      <item index="7" class="java.lang.String" itemvalue="Application.RefString" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RefString" />
+      <item index="4" class="java.lang.String" itemvalue="Application.EqualStrings" />
+      <item index="5" class="java.lang.String" itemvalue="Application.DemoStringBuffer" />
+      <item index="6" class="java.lang.String" itemvalue="Application.RefStringBuilder" />
+      <item index="7" class="java.lang.String" itemvalue="Application.DemoRegular" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.RefString" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SortArray" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AnnoRunner" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ActionMain" />
-        <item index="4" class="java.lang.String" itemvalue="Application.EnumRunner" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DemoRegular" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RefStringBuilder" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DemoStringBuffer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.EqualStrings" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RefString" />
       </list>
     </recent_temporary>
   </component>
@@ -626,35 +607,10 @@
       <workItem from="1510231115109" duration="14000" />
       <workItem from="1510304682088" duration="4813000" />
       <workItem from="1510375661223" duration="7000" />
-      <workItem from="1510548588535" duration="466000" />
-    </task>
-    <task id="LOCAL-00049" summary="AddCookie.html">
-      <created>1506677070843</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1506677070843</updated>
-    </task>
-    <task id="LOCAL-00050" summary="full chapter 32">
-      <created>1506678106736</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1506678106736</updated>
-    </task>
-    <task id="LOCAL-00051" summary="full chapter 33">
-      <created>1506755630794</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1506755630795</updated>
-    </task>
-    <task id="LOCAL-00052" summary="full chapter 32">
-      <created>1506918279738</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1506918279739</updated>
+      <workItem from="1510548588535" duration="3298000" />
+      <workItem from="1511350830885" duration="3000" />
+      <workItem from="1511351273398" duration="478000" />
+      <workItem from="1511428128188" duration="170000" />
     </task>
     <task id="LOCAL-00053" summary="full chapter 33">
       <created>1506929523153</created>
@@ -971,12 +927,40 @@
       <option name="project" value="LOCAL" />
       <updated>1510311065178</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Java Методы программирования стр 174. Class String">
+      <created>1510549074003</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1510549074010</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Java Методы программирования стр 174. Class String">
+      <created>1510562011905</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1510562011907</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Java Методы программирования стр 174. Class String. Method intern()">
+      <created>1510562154254</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1510562154254</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Java Методы программирования стр 174. Class StringBuffer. Methods reverse, capacity, length">
+      <created>1510562876965</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1510562876965</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="148881000" />
+    <option name="totallyTimeSpent" value="152364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -988,7 +972,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="1121" width="1920" height="1039" extended-state="6" />
+    <frame x="249" y="164" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1000,12 +984,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3761118" sideWeight="0.53958786" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.4978308" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3761118" sideWeight="0.46041214" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37560385" sideWeight="0.46041214" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.47342733" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3253796" sideWeight="0.49369368" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24783081" sideWeight="0.49369368" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35954446" sideWeight="0.5063063" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1066,9 +1050,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java Методы программирования стр 79" />
-    <MESSAGE value="Java Методы программирования стр 79-80" />
-    <MESSAGE value="Java Методы программирования стр 83" />
     <MESSAGE value="Java Методы программирования стр 83-87" />
     <MESSAGE value="Java Методы программирования стр 99. Inheritance" />
     <MESSAGE value="Java Методы программирования стр 100. Inheritance" />
@@ -1091,7 +1072,10 @@
     <MESSAGE value="Java Методы программирования стр 160. Аннотация." />
     <MESSAGE value="Java Методы программирования стр 165. Аннотация." />
     <MESSAGE value="Java Методы программирования стр 173. Class String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Методы программирования стр 173. Class String" />
+    <MESSAGE value="Java Методы программирования стр 174. Class String" />
+    <MESSAGE value="Java Методы программирования стр 174. Class String. Method intern()" />
+    <MESSAGE value="Java Методы программирования стр 174. Class StringBuffer. Methods reverse, capacity, length" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Методы программирования стр 174. Class StringBuffer. Methods reverse, capacity, length" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1126,34 +1110,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/inheritance/CreditCardAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/inheritance/CardRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/inheritance/CardAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/scalability/AbstractQuest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m_1/by/bsu/scalability/DragnDropQuest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -1456,29 +1412,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/strings/SortArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m_1/by/bsu/strings/ComparisonStrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m_1/by/bsu/strings/RefString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/strings/EqualStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/strings/DemoStringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/strings/SortArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/strings/RefStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_1/by/bsu/regex/DemoRegular.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
           <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
