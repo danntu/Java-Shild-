@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><students>
-    <student faculty="mmf"><name>Myrzakanov Daniyar</name>
-        <address country="Kazakhstan" city="Almaty" street="Asyl Arman 4">
-            <phone number="87021969826"/>
-        </address>
-    </student>
-
-    <student faculty="mmf"><name>Eleyp Estai</name><address country="Kazakhstan" city="Almaty" street="Asyl Arman 20"><phone number="87777731663"/></address></student>
-</students>
