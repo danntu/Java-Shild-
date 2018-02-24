@@ -1,5 +1,8 @@
 public class TestLoop {
     public static void main(String[] args) {
+
+        System.out.println(Puppy.pupAgeStatic);
+
         int numbers[]={10,20,30,40,50};
         for (int x:
              numbers) {
@@ -12,6 +15,8 @@ public class TestLoop {
              names) {
             System.out.print(name);
             System.out.print(",");
+
+
         }
     }
 }
