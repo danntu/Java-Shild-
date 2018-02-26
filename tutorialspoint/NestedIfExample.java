@@ -7,5 +7,6 @@ public class NestedIfExample {
                 System.out.println("X = 30 and Y = 10");
             }
         }
+
     }
 }
