@@ -5,6 +5,7 @@ public class TestWhile {
             System.out.print("Value of x: "+x);
             x++;
             System.out.print("\n");
+
         }
     }
 }
