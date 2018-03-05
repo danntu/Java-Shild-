@@ -96,11 +96,11 @@ public class FutVal extends JApplet implements ActionListener {
         add(futvalLab);
         add(futvalText);
         add(doIt);
-        amountText.addActionListener(this);
-        periodText.addActionListener(this);
-        rateText.addActionListener(this);
-        compText.addActionListener(this);
-        doIt.addActionListener(this);
+        amountText.addActionListener(thistest);
+        periodText.addActionListener(thistest);
+        rateText.addActionListener(thistest);
+        compText.addActionListener(thistest);
+        doIt.addActionListener(thistest);
 
         nf= NumberFormat.getInstance();
         nf.setMinimumFractionDigits(2);

@@ -16,7 +16,7 @@ public enum StudentEnum {
     private String value;
 
     StudentEnum(String value) {
-        this.value = value;
+        thistest.value = value;
     }
 
     public String getValue() {

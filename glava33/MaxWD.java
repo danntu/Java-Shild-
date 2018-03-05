@@ -97,11 +97,11 @@ public class MaxWD extends JApplet implements ActionListener {
         add(maxWDLab);
         add(maxWDtext);
         add(doIt);
-        orgPText.addActionListener(this);
-        periodText.addActionListener(this);
-        rateText.addActionListener(this);
-        numWDText.addActionListener(this);
-        doIt.addActionListener(this);
+        orgPText.addActionListener(thistest);
+        periodText.addActionListener(thistest);
+        rateText.addActionListener(thistest);
+        numWDText.addActionListener(thistest);
+        doIt.addActionListener(thistest);
 
         nf= NumberFormat.getInstance();
         nf.setMinimumFractionDigits(2);

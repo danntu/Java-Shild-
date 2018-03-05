@@ -86,10 +86,10 @@ public class RegPay extends JApplet implements ActionListener{
         add(paymentText);
         add(doIt);
 
-        amountText.addActionListener(this);
-        periodtext.addActionListener(this);
-        rateText.addActionListener(this);
-        doIt.addActionListener(this);
+        amountText.addActionListener(thistest);
+        periodtext.addActionListener(thistest);
+        rateText.addActionListener(thistest);
+        doIt.addActionListener(thistest);
 
         nf= NumberFormat.getInstance();
         nf.setMinimumFractionDigits(2);

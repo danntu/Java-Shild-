@@ -15,7 +15,7 @@ public class MarshalMain {
                 {
                     Student.Address addr = new Student.Address("BLR","Minsk","Asyl Arman 4");
                     Student s = new Student("gochette","Myrzakanov","mmf",2095306,addr);
-                    this.add(s);
+                    thistest.add(s);
                 }
 
 

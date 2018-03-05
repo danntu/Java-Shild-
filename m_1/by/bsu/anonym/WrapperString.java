@@ -4,7 +4,7 @@ public class WrapperString {
     private  String str;
 
     public WrapperString(String str) {
-        this.str = str;
+        thistest.str = str;
     }
 
     public String getStr() {

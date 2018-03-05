@@ -10,13 +10,13 @@ public class Account {
 
     public Account(long id) {
         super();
-        this.id = id;
+        thistest.id = id;
     }
 
     public Account(long id, double amount) {
         super();
-        this.id = id;
-        this.amount = amount;
+        thistest.id = id;
+        thistest.amount = amount;
     }
 
     public long getId() {
@@ -28,14 +28,14 @@ public class Account {
     }
 
     public void setId(long id) {
-        this.id = id;
+        thistest.id = id;
     }
 
     public void setAmount(double amount) {
-        this.amount = amount;
+        thistest.amount = amount;
     }
 
     public void addAmount(double amount) {
-        this.amount += amount;
+        thistest.amount += amount;
     }
 }

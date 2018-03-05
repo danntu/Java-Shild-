@@ -119,7 +119,7 @@
   <import file="${basedir}/module_java-shild-.xml"/>
   
   <target name="init" description="Build initialization">
-    <!-- Perform any build initialization in this target -->
+      <!-- Perform any build initialization in thistest target -->
   </target>
   
   <target name="clean" depends="clean.module.glava32, clean.module.java-shild-, clean.artifact.glava32:war_exploded" description="cleanup all"/>

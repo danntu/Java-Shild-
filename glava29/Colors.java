@@ -27,7 +27,7 @@ public class Colors extends Canvas implements Serializable{
     }
 
     public void setRectangular(boolean flag) {
-        this.rectangular=flag;
+        thistest.rectangular=flag;
         repaint();
     }
 

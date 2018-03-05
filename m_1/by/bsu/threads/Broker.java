@@ -5,7 +5,7 @@ public class Broker extends Thread {
     private static final int PAUSE = 500;
 
     public Broker(Market market){
-        this.market=market;
+        thistest.market=market;
     }
 
     @Override

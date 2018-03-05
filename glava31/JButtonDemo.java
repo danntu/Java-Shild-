@@ -25,17 +25,17 @@ public class JButtonDemo extends JApplet implements ActionListener{
     private  void makeGUI(){
         setLayout(new FlowLayout());
         JButton jButton = new JButton("France");
-        jButton.addActionListener(this);
+        jButton.addActionListener(thistest);
         jButton.setActionCommand("france");
         add(jButton);
 
         jButton = new JButton("Germany");
-        jButton.addActionListener(this);
+        jButton.addActionListener(thistest);
         jButton.setActionCommand("germany");
         add(jButton);
 
         jButton = new JButton("Italy");
-        jButton.addActionListener(this);
+        jButton.addActionListener(thistest);
         jButton.setActionCommand("italy");
         add(jButton);
 

@@ -5,7 +5,7 @@ public class Dumber extends Dumb {
 
     public Dumber() {
         System.out.println("конструктор класса Dumber");
-        id = this.getId();
+        id = thistest.getId();
         System.out.println(" id = "+id);
     }
 

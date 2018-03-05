@@ -30,11 +30,11 @@ public class Student {
     }
 
     public Student(String login, String name, String faculty, int telephone, Address address) {
-        this.login = login;
-        this.name = name;
-        this.faculty = faculty;
-        this.telephone = telephone;
-        this.address = address;
+        thistest.login = login;
+        thistest.name = name;
+        thistest.faculty = faculty;
+        thistest.telephone = telephone;
+        thistest.address = address;
     }
 
     public String getLogin() {
@@ -42,7 +42,7 @@ public class Student {
     }
 
     public void setLogin(String login) {
-        this.login = login;
+        thistest.login = login;
     }
 
     public String getName() {
@@ -50,7 +50,7 @@ public class Student {
     }
 
     public void setName(String name) {
-        this.name = name;
+        thistest.name = name;
     }
 
     public String getFaculty() {
@@ -58,7 +58,7 @@ public class Student {
     }
 
     public void setFaculty(String faculty) {
-        this.faculty = faculty;
+        thistest.faculty = faculty;
     }
 
     public int getTelephone() {
@@ -66,7 +66,7 @@ public class Student {
     }
 
     public void setTelephone(int telephone) {
-        this.telephone = telephone;
+        thistest.telephone = telephone;
     }
 
     public Address getAddress() {
@@ -74,7 +74,7 @@ public class Student {
     }
 
     public void setAddress(Address address) {
-        this.address = address;
+        thistest.address = address;
     }
 
     public String toString(){
@@ -95,9 +95,9 @@ public class Student {
         }
 
         public Address(String country, String city, String street) {
-            this.country = country;
-            this.city = city;
-            this.street = street;
+            thistest.country = country;
+            thistest.city = city;
+            thistest.street = street;
         }
 
         public String getCountry() {
@@ -105,7 +105,7 @@ public class Student {
         }
 
         public void setCountry(String country) {
-            this.country = country;
+            thistest.country = country;
         }
 
         public String getCity() {
@@ -113,7 +113,7 @@ public class Student {
         }
 
         public void setCity(String city) {
-            this.city = city;
+            thistest.city = city;
         }
 
         public String getStreet() {
@@ -121,7 +121,7 @@ public class Student {
         }
 
         public void setStreet(String street) {
-            this.street = street;
+            thistest.street = street;
         }
 
         public String toString(){

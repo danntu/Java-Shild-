@@ -97,11 +97,11 @@ public class InitInv extends JApplet implements ActionListener {
         add(initialLab);
         add(initialText);
         add(doIt);
-        targetText.addActionListener(this);
-        periodText.addActionListener(this);
-        rateText.addActionListener(this);
-        compText.addActionListener(this);
-        doIt.addActionListener(this);
+        targetText.addActionListener(thistest);
+        periodText.addActionListener(thistest);
+        rateText.addActionListener(thistest);
+        compText.addActionListener(thistest);
+        doIt.addActionListener(thistest);
 
         nf= NumberFormat.getInstance();
         nf.setMinimumFractionDigits(2);

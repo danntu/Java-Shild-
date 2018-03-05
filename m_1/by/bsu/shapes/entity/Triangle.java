@@ -6,8 +6,8 @@ public class Triangle extends AbstractShape {
 
     public Triangle(double a, double b, double angle) {
         super(a);
-        this.b = b;
-        this.angle = angle;
+        thistest.b = b;
+        thistest.angle = angle;
     }
 
     public double getAngle() {

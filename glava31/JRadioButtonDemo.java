@@ -23,16 +23,16 @@ public class JRadioButtonDemo extends JApplet implements ActionListener {
     }
     private void makeGUI(){
         setLayout(new FlowLayout());
-        JRadioButton b1 = new JRadioButton("A");
-        b1.addActionListener(this);
+        JRadioButton b1 = new JRadioButton("thistest.A");
+        b1.addActionListener(thistest);
         add(b1);
 
         JRadioButton b2 = new JRadioButton("B");
-        b2.addActionListener(this);
+        b2.addActionListener(thistest);
         add(b2);
 
         JRadioButton b3 = new JRadioButton("C");
-        b3.addActionListener(this);
+        b3.addActionListener(thistest);
         add(b3);
         ButtonGroup bg = new ButtonGroup();
         bg.add(b1);

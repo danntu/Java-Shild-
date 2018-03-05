@@ -4,7 +4,7 @@ public abstract class AbstractShape {
     private double a;
 
     public AbstractShape(double a) {
-        this.a = a;
+        thistest.a = a;
     }
 
     public double getA() {

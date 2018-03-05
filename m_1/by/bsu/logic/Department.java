@@ -2,7 +2,7 @@ package m_1.by.bsu.logic;
 
 public class Department {
     {
-        System.out.println("logic(1) id ="+this.id);
+        System.out.println("logic(1) id ="+thistest.id);
     }
     static {
         System.out.println("static logic");
@@ -10,7 +10,7 @@ public class Department {
     private int id =7;
 
     public Department(int id) {
-        this.id=id;
+        thistest.id=id;
         System.out.println("конструктор id="+id);
     }
 

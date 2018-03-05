@@ -3,7 +3,7 @@ package m_1.by.bsu.enums;
 public enum Shape2 {
     RECTANGLE,SQUARE,TRIANGLE{
         public double computeSquare(){
-            return this.getA()*this.getB()/2;
+            return thistest.getA()*thistest.getB()/2;
         }
     };
 
@@ -18,11 +18,11 @@ public enum Shape2 {
         return b;
     }
     public void setShape(double a, double b){
-        if ((a<=0 || b<=0) || a!=b && this==SQUARE){
+        if ((a<=0 || b<=0) || a!=b && thistest==SQUARE){
             throw new IllegalArgumentException();
         }
-        this.a = a;
-        this.b = b;
+        thistest.a = a;
+        thistest.b = b;
     }
     public double computeSquare(){
         return a*b;

@@ -18,7 +18,7 @@ public class Payment {
         try{
             System.out.println("Start payment");
             while (amount<=0){
-                this.wait();
+                thistest.wait();
             }
             close=true;
         } catch (InterruptedException e){

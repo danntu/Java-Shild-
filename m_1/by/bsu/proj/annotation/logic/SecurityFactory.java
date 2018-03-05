@@ -21,7 +21,7 @@ public class SecurityFactory {
         private Object targetObject =null;
 
         public SecurityInvokationHandler(Object targetObject) {
-            this.targetObject = targetObject;
+            thistest.targetObject = targetObject;
         }
         public Object invoke(Object proxy, Method method, Object[] args) throws Throwable{
             SecurityLogic logic = new SecurityLogic();

@@ -7,7 +7,7 @@ public class Message<T> {
     }
 
     public Message(T value) {
-        this.value = value;
+        thistest.value = value;
     }
 
     public T getValue() {
@@ -15,7 +15,7 @@ public class Message<T> {
     }
 
     public void setValue(T value) {
-        this.value = value;
+        thistest.value = value;
     }
     public String toString(){
         if (value==null){

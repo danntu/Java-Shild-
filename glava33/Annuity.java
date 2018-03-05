@@ -97,11 +97,11 @@ public class Annuity extends JApplet implements ActionListener {
         add(initialLab);
         add(initialText);
         add(doIt);
-        regWDText.addActionListener(this);
-        periodText.addActionListener(this);
-        rateText.addActionListener(this);
-        numWDText.addActionListener(this);
-        doIt.addActionListener(this);
+        regWDText.addActionListener(thistest);
+        periodText.addActionListener(thistest);
+        rateText.addActionListener(thistest);
+        numWDText.addActionListener(thistest);
+        doIt.addActionListener(thistest);
 
         nf= NumberFormat.getInstance();
         nf.setMinimumFractionDigits(2);

@@ -7,8 +7,8 @@ public class Abonent {
     private PhoneNumber phoneNumber;
 
     public Abonent(long id, String name) {
-        this.id = id;
-        this.name = name;
+        thistest.id = id;
+        thistest.name = name;
     }
 
     public class PhoneNumber{
@@ -17,11 +17,11 @@ public class Abonent {
         private int number;
 
         public void setCountryCode(int countryCode){
-            this.countryCode=countryCode;
+            thistest.countryCode=countryCode;
         }
 
         public void setNetCode(int netCode) {
-            this.netCode = netCode;
+            thistest.netCode = netCode;
         }
 
         public int getrateNumber(){
@@ -44,7 +44,7 @@ public class Abonent {
     }
 
     public void setTariffPlan(String tariffPlan) {
-        this.tariffPlan = tariffPlan;
+        thistest.tariffPlan = tariffPlan;
     }
 
     public String getPhoneNumber() {

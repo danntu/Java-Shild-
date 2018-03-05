@@ -8,7 +8,7 @@ public enum TaxiStation {
     }
 
     TaxiStation(int freeCabs) {
-        this.freeCabs = freeCabs;
+        thistest.freeCabs = freeCabs;
     }
 
     public int getFreeCabs() {
@@ -16,7 +16,7 @@ public enum TaxiStation {
     }
 
     public void setFreeCabs(int freeCabs) {
-        this.freeCabs = freeCabs;
+        thistest.freeCabs = freeCabs;
     }
     @Override
     public String toString(){

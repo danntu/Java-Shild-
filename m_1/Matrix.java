@@ -6,8 +6,8 @@ public class Matrix {
     private int m;
 
     public Matrix(int n, int m) {
-        this.n = n;
-        this.m = m;
+        thistest.n = n;
+        thistest.m = m;
         a = new int[n][m];
         for (int i = 0; i <n ; i++) {
             for (int j = 0; j <m ; j++) {
@@ -18,8 +18,8 @@ public class Matrix {
     }
 
     public Matrix(int n,int m,int k){
-        this.n=n;
-        this.m=m;
+        thistest.n=n;
+        thistest.m=m;
         a = new int[n][m];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {

@@ -1,12 +1,12 @@
 package m_1.by.bsu.dumb;
 
 public class Dumb extends Object{
-    { this.id =6;}
+    { thistest.id =6;}
     int id;
 
     public Dumb() {
         System.out.println("конструктор класса Dumb");
-        id = this.getId();
+        id = thistest.getId();
         System.out.println(" id = "+id);
     }
 

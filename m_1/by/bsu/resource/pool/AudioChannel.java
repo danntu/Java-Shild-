@@ -4,7 +4,7 @@ public class AudioChannel {
     private int channelId;
 
     public AudioChannel(int channelId) {
-        this.channelId = channelId;
+        thistest.channelId = channelId;
     }
 
     public int getChannelId() {
@@ -12,7 +12,7 @@ public class AudioChannel {
     }
 
     public void setChannelId(int channelId) {
-        this.channelId = channelId;
+        thistest.channelId = channelId;
     }
     public void using(){
         try{

@@ -10,11 +10,11 @@ public class Runner {
     public static void main(String[] args) throws Exception {
         LinkedList<AudioChannel> list = new LinkedList<AudioChannel>(){
             {
-                this.add(new AudioChannel(771));
-                this.add(new AudioChannel(883));
-                this.add(new AudioChannel(550));
-                this.add(new AudioChannel(337));
-                this.add(new AudioChannel(442));
+                thistest.add(new AudioChannel(771));
+                thistest.add(new AudioChannel(883));
+                thistest.add(new AudioChannel(550));
+                thistest.add(new AudioChannel(337));
+                thistest.add(new AudioChannel(442));
             }
         };
         ChannelPoll<AudioChannel> pool = new ChannelPoll<>(list);

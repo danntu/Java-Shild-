@@ -5,7 +5,7 @@ public class SyncThread extends Thread{
 
     public SyncThread(String name, Resource rs){
         super(name);
-        this.resource =rs;
+        thistest.resource =rs;
     }
 
     @Override

@@ -25,19 +25,19 @@ public class JCheckBoxDemo extends JApplet implements ItemListener{
     private void makeGUI(){
         setLayout(new FlowLayout());
         checkBox = new JCheckBox("C");
-        checkBox.addItemListener(this);
+        checkBox.addItemListener(thistest);
         add(checkBox);
 
         checkBox = new JCheckBox("C++");
-        checkBox.addItemListener(this);
+        checkBox.addItemListener(thistest);
         add(checkBox);
 
         checkBox = new JCheckBox("Java");
-        checkBox.addItemListener(this);
+        checkBox.addItemListener(thistest);
         add(checkBox);
 
         checkBox = new JCheckBox("Perl");
-        checkBox.addItemListener(this);
+        checkBox.addItemListener(thistest);
         add(checkBox);
 
         label = new JLabel("Select languages");

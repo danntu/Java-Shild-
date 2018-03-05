@@ -7,7 +7,7 @@ public class Market extends Thread{
     private AtomicLong index;
 
     public Market(AtomicLong index){
-        this.index=index;
+        thistest.index=index;
     }
 
     public AtomicLong getIndex() {

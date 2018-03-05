@@ -101,11 +101,11 @@ public class RemBal extends JApplet implements ActionListener {
         add(remBalLab);
         add(remBalText);
         add(doIt);
-        orgPText.addActionListener(this);
-        numPayText.addActionListener(this);
-        rateText.addActionListener(this);
-        paymentText.addActionListener(this);
-        doIt.addActionListener(this);
+        orgPText.addActionListener(thistest);
+        numPayText.addActionListener(thistest);
+        rateText.addActionListener(thistest);
+        paymentText.addActionListener(thistest);
+        doIt.addActionListener(thistest);
 
         nf= NumberFormat.getInstance();
         nf.setMinimumFractionDigits(2);

@@ -9,9 +9,9 @@ class Sum extends RecursiveTask<Double>{
     int start,end;
 
     public Sum(double[] data, int start, int end) {
-        this.data = data;
-        this.start = start;
-        this.end = end;
+        thistest.data = data;
+        thistest.start = start;
+        thistest.end = end;
     }
 
     @Override

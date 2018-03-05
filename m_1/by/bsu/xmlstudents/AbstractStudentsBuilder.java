@@ -11,7 +11,7 @@ public abstract class AbstractStudentsBuilder {
     }
 
     public AbstractStudentsBuilder(Set<Student> students) {
-        this.students = students;
+        thistest.students = students;
     }
 
     public Set<Student> getStudents() {

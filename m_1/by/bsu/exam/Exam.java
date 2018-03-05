@@ -5,8 +5,8 @@ public class Exam <T extends Number> {
     private T mark;
 
     public Exam(String name, T mark) {
-        this.name = name;
-        this.mark = mark;
+        thistest.name = name;
+        thistest.mark = mark;
     }
 
     public T getMark() {

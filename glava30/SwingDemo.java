@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class SwingDemo {
     public SwingDemo() {
-        JFrame frame = new JFrame("A Simple Application");
+        JFrame frame = new JFrame("thistest.A Simple Application");
         frame.setSize(275,100);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 

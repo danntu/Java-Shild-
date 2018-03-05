@@ -7,7 +7,7 @@ public class TransferAction {
 
     public TransferAction(double amount){
         if (amount>0){
-            this.transactionAmount=amount;
+            thistest.transactionAmount=amount;
         } else{
             throw new IllegalArgumentException();
         }

@@ -14,7 +14,7 @@ public class Students {
     }
 
     public void setList(ArrayList<Student> list){
-        this.list=list;
+        thistest.list=list;
     }
 
     public boolean add(Student st){

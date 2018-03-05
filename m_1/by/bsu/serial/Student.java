@@ -11,9 +11,9 @@ public class Student implements Serializable{
 
     public Student(String nameoFaculty, String name, int id, String password) {
         faculty=nameoFaculty;
-        this.name = name;
-        this.id = id;
-        this.password = password;
+        thistest.name = name;
+        thistest.id = id;
+        thistest.password = password;
     }
     public String toString(){
         return "\nfaculty "+faculty+"\nname "+name+"\nID "+id+"\npassword "+password;

@@ -26,7 +26,7 @@ public class JTreeDemo extends JApplet {
     private void makeGUI(){
         DefaultMutableTreeNode top = new DefaultMutableTreeNode("Oprions");
 
-        DefaultMutableTreeNode a  = new DefaultMutableTreeNode("A");
+        DefaultMutableTreeNode a  = new DefaultMutableTreeNode("thistest.A");
         top.add(a);
         DefaultMutableTreeNode a1 = new DefaultMutableTreeNode("A1");
         a.add(a1);
