@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java-Shild-.iml" filepath="$PROJECT_DIR$/Java-Shild-.iml" />
       <module fileurl="file://$PROJECT_DIR$/glava32/glava32.iml" filepath="$PROJECT_DIR$/glava32/glava32.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javatpoint/javatpoint.iml" filepath="$PROJECT_DIR$/javatpoint/javatpoint.iml" />
     </modules>
   </component>
 </project>
