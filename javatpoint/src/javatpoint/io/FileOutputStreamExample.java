@@ -8,12 +8,17 @@ public class FileOutputStreamExample {
     public static void main(String[] args) throws IOException {
 
         FileOutputStream fout = new FileOutputStream("testout.txt");
-        String s = "Welcome to javaTpoint.";
+        byte z[] = {65, 66, 97, 98};
+        String s = "ADDDDD";
         byte[] b = s.getBytes();
-        fout.write(65);
+        for (int i = 0; i < b.length; i++) {
+            System.out.println(b[i] + "");
+        }
+        fout.write(z);
         fout.write(b);
         fout.close();
         System.out.println("success");
+
 
     }
 }
