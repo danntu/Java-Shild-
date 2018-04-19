@@ -3,6 +3,15 @@ package javatpoint.object_class;
 class Student1 {
     int id;
     String name;
+
+    public void insertRecord(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public void displayInformation() {
+        System.out.println(id + " " + name);
+    }
 }
 
 public class TestStudent1 {
