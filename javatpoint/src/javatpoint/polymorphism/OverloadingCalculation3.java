@@ -13,5 +13,6 @@ public class OverloadingCalculation3 {
         OverloadingCalculation3 calculation3 = new OverloadingCalculation3();
         calculation3.sum(20, 20L);
         calculation3.sum(20L, 30);
+        //calculation3.sum(20,20);//now ambiguity
     }
 }
