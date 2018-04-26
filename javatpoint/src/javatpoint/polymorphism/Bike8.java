@@ -8,7 +8,7 @@ public class Bike8 {
     }
 
     {
-        System.out.println("instance initializer block invoked");
+        System.out.println("inst initializer block invoked");
     }
 
     public static void main(String[] args) {

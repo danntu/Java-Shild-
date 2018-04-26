@@ -13,7 +13,7 @@ public class B2 extends A2 {
     }
 
     {
-        System.out.println("instance initializer block is invoked");
+        System.out.println("inst initializer block is invoked");
     }
 
     public static void main(String[] args) {

@@ -19,7 +19,7 @@
 //    public void print(){
 //        int num =20;
 //        System.out.println("value of local variable num is : "+num);
-//        System.out.println("value of instance variable num is : "+thistest.num);
+//        System.out.println("value of inst variable num is : "+thistest.num);
 //        thistest.greet();
 //
 //    }
