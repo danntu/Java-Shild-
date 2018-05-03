@@ -1,11 +1,10 @@
 package javatpoint.access.mypack;
 
-import javatpoint.access.pack.*;
+import javatpoint.access.pack.A;
 
-
-public class B {
+public class B extends A {
     public static void main(String[] args) {
-        A obj = new A(); //compile time error
-        obj.msg(); //compile time error
+        B obj = new B();
+        obj.msg();
     }
 }
