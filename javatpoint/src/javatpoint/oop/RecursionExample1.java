@@ -8,7 +8,5 @@ public class RecursionExample1 {
 
     public static void main(String[] args) {
         p();
-
-
     }
 }
