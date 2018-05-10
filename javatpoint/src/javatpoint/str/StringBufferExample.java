@@ -8,3 +8,11 @@ public class StringBufferExample {
         System.out.println(stringBuffer);
     }
 }
+
+class StringBufferExample2 {
+    public static void main(String[] args) {
+        StringBuffer stringBuffer = new StringBuffer("Hello");
+        stringBuffer.insert(2, "World");
+        System.out.println(stringBuffer);
+    }
+}
