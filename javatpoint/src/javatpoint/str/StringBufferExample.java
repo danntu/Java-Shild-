@@ -16,3 +16,11 @@ class StringBufferExample2 {
         System.out.println(stringBuffer);
     }
 }
+
+class StringBufferExample3 {
+    public static void main(String[] args) {
+        StringBuffer stringBuffer = new StringBuffer("Hello ");
+        stringBuffer.replace(1, 2, "a");
+        System.out.println(stringBuffer);
+    }
+}
