@@ -24,3 +24,11 @@ class StringBufferExample3 {
         System.out.println(stringBuffer);
     }
 }
+
+class StringBufferExample4 {
+    public static void main(String[] args) {
+        StringBuffer stringBuffer = new StringBuffer("Daniyar");
+        stringBuffer.delete(3, 7);
+        System.out.println(stringBuffer);
+    }
+}
