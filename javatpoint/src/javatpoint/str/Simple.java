@@ -10,3 +10,12 @@ public class Simple {
         }
     }
 }
+
+class Test {
+    public static void main(String[] args) {
+        StringTokenizer tokenizer = new StringTokenizer("My,name,is,Danik");
+        while (tokenizer.hasMoreElements()) {
+            System.out.print("Next token " + tokenizer.nextToken(",") + " ");
+        }
+    }
+}
