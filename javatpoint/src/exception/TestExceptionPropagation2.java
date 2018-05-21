@@ -7,8 +7,8 @@ public class TestExceptionPropagation2 {
         throw new IOException("device error");
     }
 
-    void n() {
-        //m();
+    void n() throws IOException {
+        m();
     }
 
     void p() {
