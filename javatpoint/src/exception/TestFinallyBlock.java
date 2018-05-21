@@ -35,6 +35,7 @@ class TestFinallyBlock2 {
             System.out.println(data);
         } catch (ArithmeticException e) {
             System.out.println(e);
+            System.exit(0);
         } finally {
             System.out.println("finally block is always executed");
         }
