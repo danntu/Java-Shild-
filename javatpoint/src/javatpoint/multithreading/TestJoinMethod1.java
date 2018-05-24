@@ -5,7 +5,7 @@ public class TestJoinMethod1 extends Thread {
     public void run() {
         for (int i = 0; i < 5; i++) {
             try {
-                Thread.sleep(500);
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 System.out.println(e);
             }
@@ -18,6 +18,7 @@ public class TestJoinMethod1 extends Thread {
         TestJoinMethod1 t1 = new TestJoinMethod1();
         TestJoinMethod1 t2 = new TestJoinMethod1();
         TestJoinMethod1 t3 = new TestJoinMethod1();
+        t2.setName("Second thread");
         t3.setName("Third thread ");
         t1.start();
         try {
