@@ -20,6 +20,7 @@ public class TestDaemonThread1 extends Thread {
         t1.setDaemon(true);
         t1.start();
         t2.start();
+        //t2.setDaemon(true); //If you want to make a user thread as Daemon, it must not be started otherwise it will throw IllegalThreadStateException.
         t3.start();
 
     }
