@@ -6,7 +6,7 @@ import javafx.scene.control.Tab;
  * Created by mdaniyar on 5/28/18.
  */
 class Table {
-    void printTable(int n) {
+    synchronized void printTable(int n) {
         for (int i = 1; i <= n; i++) {
             System.out.println(n * i);
             try {
