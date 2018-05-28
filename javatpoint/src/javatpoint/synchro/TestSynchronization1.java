@@ -1,18 +1,16 @@
 package javatpoint.synchro;
 
-import javafx.scene.control.Tab;
 
-/**
- * Created by mdaniyar on 5/28/18.
- */
 class Table {
-    synchronized void printTable(int n) {
-        for (int i = 1; i <= n; i++) {
-            System.out.println(n * i);
-            try {
-                Thread.sleep(400);
-            } catch (InterruptedException e) {
-                System.out.println(e);
+    void printTable(int n) {
+        synchronized (this) {
+            for (int i = 1; i <= n; i++) {
+                System.out.println(n * i);
+                try {
+                    Thread.sleep(400);
+                } catch (InterruptedException e) {
+                    System.out.println(e);
+                }
             }
         }
     }
