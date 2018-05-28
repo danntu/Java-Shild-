@@ -18,5 +18,7 @@ public class PrintStreamTest {
         printStream.close();
         fout.close();
         System.out.println("Success?");
+        int a = 19;
+        System.out.printf("%d", a);
     }
 }
