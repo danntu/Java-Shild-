@@ -1,2 +1,1 @@
-Welcome to javaTpoint.
-Welcome to javaTpoint 2.
+Like Java, Spring, Hibernate, Android, PHP etc.
