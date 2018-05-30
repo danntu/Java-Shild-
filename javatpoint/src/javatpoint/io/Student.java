@@ -13,4 +13,8 @@ public class Student implements Serializable {
         this.id = id;
         this.name = name;
     }
+
+    public void show() {
+        System.out.println("id =" + id + " name=" + name);
+    }
 }
