@@ -10,7 +10,7 @@ import java.net.URLConnection;
 public class URLConnectionExample {
     public static void main(String[] args) {
         try {
-            URL url = new URL("http://www.javatpoint.com/java-tutorial");
+            URL url = new URL("http://google.kz");
             URLConnection urlConnection = url.openConnection();
             InputStream inputStream = urlConnection.getInputStream();
             int i;
