@@ -28,6 +28,7 @@ public class ChoiceExample extends Frame {
             @Override
             public void itemStateChanged(ItemEvent e) {
                 String data = "Programming language Selected: " + choice.getItem(choice.getSelectedIndex());
+                //String data = "Programming language Selected: " + choice.getSelectedItem();
                 label.setText(data);
             }
         });
