@@ -16,6 +16,8 @@ public class ToolkitExample {
         System.out.println("Screen height = " + dimension.getHeight());
 
         Frame frame = new Frame("ToolkitExample");
+        Image icon = Toolkit.getDefaultToolkit().getImage("//home//mdaniyar//politican.png");
+        frame.setIconImage(icon);
         Button button = new Button("beep");
         button.setBounds(50, 100, 60, 30);
         frame.add(button);
