@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 /**
  * Created by mdaniyar on 6/5/18.
  */
-public class AEvent extends Frame implements ActionListener {
+public class AEvent extends Frame {
     TextField textField;
 
     public AEvent() throws HeadlessException {
@@ -15,7 +15,9 @@ public class AEvent extends Frame implements ActionListener {
         textField.setBounds(60, 50, 170, 20);
         Button button = new Button("click me");
         button.setBounds(100, 120, 80, 30);
-        button.addActionListener(this);
+        button.addActionListener(e -> {
+            textField.setText("Hello World");
+        });
         add(button);
         add(textField);
         setSize(300, 300);
@@ -23,7 +25,7 @@ public class AEvent extends Frame implements ActionListener {
         setVisible(true);
     }
 
-    @Override
+
     public void actionPerformed(ActionEvent e) {
         textField.setText("Hello World");
     }
