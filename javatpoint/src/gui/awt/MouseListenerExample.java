@@ -23,6 +23,9 @@ public class MouseListenerExample extends Frame implements MouseListener {
     @Override
     public void mouseClicked(MouseEvent e) {
         label.setText("Mouse clicked");
+        Graphics graphics = getGraphics();
+        graphics.setColor(Color.BLUE);
+        graphics.fillOval(e.getX(), e.getY(), 30, 30);
     }
 
     @Override
