@@ -14,11 +14,8 @@ public class ActionListenerExample {
         textField.setBounds(50, 50, 150, 20);
         Button button = new Button("Click here");
         button.setBounds(50, 100, 60, 30);
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                textField.setText("Welcome to Javatpoint");
-            }
+        button.addActionListener(e -> {
+            textField.setText("Welcome to Javatpoint");
         });
         frame.add(button);
         frame.add(textField);
