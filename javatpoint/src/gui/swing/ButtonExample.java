@@ -11,6 +11,8 @@ public class ButtonExample {
     public static void main(String[] args) {
         JFrame jFrame = new JFrame("Button Example");
         JButton jButton = new JButton(new ImageIcon("//home/mdaniyar//power.png"));
+        JLabel jLabel = new JLabel(new ImageIcon("//home/mdaniyar//power.png"));
+        jLabel.setBounds(90, 90, 100, 100);
         JTextField jTextField = new JTextField();
         jTextField.setBounds(50, 50, 150, 20);
         jButton.setBounds(50, 100, 24, 24);
@@ -22,6 +24,7 @@ public class ButtonExample {
         });
         jFrame.add(jButton);
         jFrame.add(jTextField);
+        jFrame.add(jLabel);
         jFrame.setSize(400, 400);
         jFrame.setLayout(null);
         jFrame.setVisible(true);
