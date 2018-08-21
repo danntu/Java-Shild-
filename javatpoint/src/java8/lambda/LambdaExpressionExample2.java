@@ -1,5 +1,6 @@
 package java8.lambda;
 
+@FunctionalInterface
 interface Drawable2 {
     void draw();
 }
