@@ -14,8 +14,11 @@ public class InstanceMethodReference {
         //creating object
         InstanceMethodReference methodReference = new InstanceMethodReference();
         //refering non-static method using reference
-        Sayable4 sayable = methodReference::saySomething;
+        Sayable4 sayable1 = methodReference::saySomething;
         //calling interface method
-        sayable.say();
+        sayable1.say();
+        //refering non-static method using anonymous object
+        Sayable4 sayable2 = new InstanceMethodReference()::saySomething;
+        sayable2.say();
     }
 }
