@@ -1,0 +1,1 @@
+print(java.lang.Math.sqrt(4));
