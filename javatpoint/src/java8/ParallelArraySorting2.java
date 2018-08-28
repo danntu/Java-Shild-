@@ -1,4 +1,4 @@
-package java8.stringjoiner;
+package java8;
 
 import java.util.Arrays;
 
