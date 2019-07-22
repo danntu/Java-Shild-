@@ -9,5 +9,6 @@ public class Example2 {
         num = num * 2;
         System.out.print("Значение переменная num*2 равно ");
         System.out.println(num);
+
     }
 }
