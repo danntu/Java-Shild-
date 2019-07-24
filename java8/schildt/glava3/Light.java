@@ -13,7 +13,7 @@ public class Light {
         distance = lightSpeed * seconds;
 
         System.out.print("За " + days);
-        System.out.print(" дней свет пройдет около");
+        System.out.print(" дней свет пройдет около ");
         System.out.println(distance + " миль");
 
     }
